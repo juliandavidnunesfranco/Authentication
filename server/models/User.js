@@ -22,12 +22,14 @@ module.exports = (sequelize) => {
             type: DataTypes.INTEGER,
             allowNull: false,
         },
-        addres: {
+        address: {
             type: DataTypes.INTEGER,
             allowNull: false,
         },
         password: {
             type: DataTypes.STRING,
         },
+    },{
+        timestamp:false,
     });
 };

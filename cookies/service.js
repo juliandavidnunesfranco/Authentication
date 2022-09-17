@@ -6,7 +6,7 @@ const morgan = require('morgan');
 const app = express();
 
 
-//---->>>DABASE
+//---->>>DATABASE
 /* const users = [
   {id: 1, name: 'Franco', email: 'Franco@mail.com', password: '1234'},
   {id: 2, name: 'Toni', email: 'Toni@mail.com', password: '1234'}
